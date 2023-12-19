@@ -119,7 +119,7 @@ def open_page(url):
             window.open('%s', '_blank').focus();
         </script>
     """ % (url)
-    html(open_script)
+    html(open_script, height=0,width=0)
 
 
 if __name__ == "__main__":
