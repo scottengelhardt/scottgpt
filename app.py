@@ -34,6 +34,10 @@ def main():
     # https://discuss.streamlit.io/t/how-can-i-store-data-into-variables/38350/4
     if "history" not in st.session_state:
         st.session_state.history = []
+        st.session_state.history.append({
+          'role': 'bot', 
+          'content': "Hello! I am an AI chatbot trained on Scott's professional life. You can ask me anything about his work, background, or education. Enjoy!"
+        })
 
     if "embeddings" not in st.session_state:
         # Load the data from Pinecone
@@ -75,25 +79,10 @@ def main():
         page_title="ScottGPT", page_icon=":zap:")
 
     st.header("Scott's Job Bot :zap:")
-
-    # show previous messages
-    for message in st.session_state.history:
-        avatar = '👨‍💻' if message["role"] == 'user' else '🤖'
-        with st.chat_message(message["role"], avatar=avatar):
-            st.markdown(message["content"])
-
-    # get new input and response from llm
-    user_input = st.chat_input(placeholder="What can I answer for you?")
-    if user_input:
-        st.session_state.history.append({'role': 'user', 'content': user_input})
-        st.chat_message("user", avatar='👨‍💻').markdown(user_input)
-        response = generate_response(user_input)
-        st.session_state.history.append({'role': 'bot', 'content': response})
-        st.chat_message("assistant", avatar='🤖').markdown(response)
-
+      
     with open('./resume.pdf', "rb") as file:
-        pdf_data = file.read()
-    
+      pdf_data = file.read()
+
     col1, col2, col3, col4 = st.columns(4)
     with col1:
       st.download_button(
@@ -109,6 +98,21 @@ def main():
       if st.button('Send Scott an Email'):
           webbrowser.open_new_tab("mailto:scott_engelhardt@outlook.com")
         
+
+    # show previous messages
+    for message in st.session_state.history:
+        avatar = '👨‍💻' if message["role"] == 'user' else '🤖'
+        with st.chat_message(message["role"], avatar=avatar):
+            st.markdown(message["content"])
+
+    # get new input and response from llm
+    user_input = st.chat_input(placeholder="What can I answer for you?")
+    if user_input:
+        st.session_state.history.append({'role': 'user', 'content': user_input})
+        st.chat_message("user", avatar='👨‍💻').markdown(user_input)
+        response = generate_response(user_input)
+        st.session_state.history.append({'role': 'bot', 'content': response})
+        st.chat_message("assistant", avatar='🤖').markdown(response)
 
 if __name__ == '__main__':
     main()
