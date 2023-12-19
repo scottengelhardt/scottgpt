@@ -84,7 +84,7 @@ def main():
 
     st.header("Scott's Bot :zap:")
 
-    col1, col2, col3, col4 = st.columns(4)
+    col1, col2, col3 = st.columns(3)
     with col1:
          if st.button("Open My Resume"):
             webbrowser.open_new_tab(
