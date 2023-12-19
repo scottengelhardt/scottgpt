@@ -1,4 +1,3 @@
-import os
 import webbrowser
 
 import pinecone
@@ -21,12 +20,10 @@ def generate_response(message):
 
 def main():
     
-     # load .env file
-    load_dotenv()
 
     # load pinecone
     pinecone.init(      
-        api_key=os.getenv('PINECONE_API_KEY'),      
+        api_key=st.secrets('PINECONE_API_KEY'),      
         environment='us-west1-gcp-free'      
     )      
     
