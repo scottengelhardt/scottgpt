@@ -100,7 +100,7 @@ def main():
 
     # show previous messages
     for message in st.session_state.history:
-        avatar = "👨‍"' if message["role"] ="user" else " "🤖'
+        avatar = "👨‍" if message["role"] == "user" else "🤖"
         with st.chat_message(message["role"], avatar=avatar):
             st.markdown(message["content"])
 
