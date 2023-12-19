@@ -48,7 +48,7 @@ def main():
         )
 
         # Setup LLMChain and prompt template
-        st.session_state.llm = ChatOpenAI(temperature=0, model="gpt-3.5-turbo-16k")
+        st.session_state.llm = ChatOpenAI(temperature=0, model="gpt-3.5-turbo-16k", openai_api_key=st.secrets["OPENAI_API_KEY"])
 
         st.session_state.template = """
         You, referred to in history as 'bot', are a world class conversational chat bot whose goal is to answer questions about Scott and help him get hired. 
