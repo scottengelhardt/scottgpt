@@ -87,7 +87,7 @@ def main():
     with col1:
          if st.button("Open Scott's Resume"):
             webbrowser.open_new_tab(
-                "https://github.com/scottengelhardt/scottgpt/blob/dc87c1b12f559e12dfe6029e009eb4f7f9fb5ed8/resume.pdf""
+                "https://github.com/scottengelhardt/scottgpt/blob/dc87c1b12f559e12dfe6029e009eb4f7f9fb5ed8/resume.pdf"
             )
         st.download_button(
             label="Download Resume",
