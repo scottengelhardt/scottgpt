@@ -32,7 +32,8 @@
 ## Run the Streamlit Web App
   ### This will run a basic Q&A bot via a local web page
   1. Setup your data in Pinecone
-  2. Run `app.py` to run the web version of this application
+  2. Upate your secrets/keys in `./.streamlit/secrets.toml` and any links in `app.py`
+  3. Run `app.py` to run the web version of this application
      - `python3 -m streamlit run app.py`
 
 ## Fine Tuning
