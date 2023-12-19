@@ -83,7 +83,7 @@ def main():
 
     st.header("Scott's Job Bot :zap:")
 
-    with open("./resume.pdf", "rb") as file:
+    with open("https://github.com/scottengelhardt/scottgpt/blob/dc87c1b12f559e12dfe6029e009eb4f7f9fb5ed8/resume.pdf", "rb") as file:
         pdf_data = file.read()
 
     col1, col2, col3, col4 = st.columns(4)
