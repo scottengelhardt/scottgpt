@@ -2,6 +2,8 @@ import webbrowser
 
 import pinecone
 import streamlit as st
+from streamlit.components.v1 import html
+
 from langchain.chains import LLMChain
 from langchain.chat_models import ChatOpenAI
 from langchain.embeddings.openai import OpenAIEmbeddings
@@ -87,17 +89,13 @@ def main():
     col1, col2, col3, *_ = st.columns(3)
     with col1:
          if st.button("Open My Resume"):
-            webbrowser.open_new_tab(
-                "https://github.com/scottengelhardt/scottgpt/blob/dc87c1b12f559e12dfe6029e009eb4f7f9fb5ed8/resume.pdf"
-            )
+            open_page("https://github.com/scottengelhardt/scottgpt/blob/dc87c1b12f559e12dfe6029e009eb4f7f9fb5ed8/resume.pdf")
     with col2:
         if st.button("My Interactive Intro"):
-            webbrowser.open_new_tab(
-                "https://share.mindstamp.com/w/RgoLuuzfyGFi?from=streamlit"
-            )
+            open_page("https://share.mindstamp.com/w/RgoLuuzfyGFi?from=streamlit")
     with col3:
         if st.button("Send Me an Email"):
-            webbrowser.open_new_tab("mailto:scott_engelhardt@outlook.com")
+            open_page("mailto:scott_engelhardt@outlook.com")
 
     # show previous messages
     for message in st.session_state.history:
@@ -113,6 +111,16 @@ def main():
         response = generate_response(user_input)
         st.session_state.history.append({"role": "bot", "content": response})
         st.chat_message("assistant", avatar="🤖").markdown(response)
+
+
+def open_page(url):
+    open_script= """
+        <script type="text/javascript">
+            window.open('%s', '_blank').focus();
+        </script>
+    """ % (url)
+    html(open_script)
+
 
 if __name__ == "__main__":
     main()
