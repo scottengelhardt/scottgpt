@@ -3,7 +3,7 @@ My name is Scott Engelhardt and this is my interactive portfolio built on Mindst
 We'll talk more soon about what Mindstamp is, but first I want to give you a roadmap about the video you're about to watch.
 We're going to dive into things like my education, my background, and some fun facts about me.
 If at any point in the video you want to skip to one of those sections, feel free to click on the Magic menu icon right here.
-This will open up an navigation window that allows you to click on the different sections, as well as see my LinkedIn and GitHub profiles and a download to my resume.
+This will open up a navigation window that allows you to click on the different sections, as well as see my LinkedIn and GitHub profiles and a download to my resume.
 If at any point in the video you have questions about what I'm talking about or just want to know more, click on the genie icon right here where you can ask questions about my experience, my background, my resume, or anything else that I'm talking about in this video.
 Oh, and one last thing to point out here.
 Being that I'm the lead software engineer at Mindstamp, I'm going to showcase some of the projects that I've worked on, such as the Magic Menu.
@@ -18,7 +18,7 @@ But during this time, I learned the value of hard work, discipline, prioritizing
 Having degrees in both finance and computer science sets me apart as a unique candidate because it has given me an analytical, business minded perspective in all of my work.
 Straight out of college, I moved to Melbourne, Florida to work as a financial analyst at L three Harris.
 During my time at L Three Harris, I had four different positions.
-I went from financial analyst to Fpna lead, then to database administer, and finally a business analyst.
+I went from financial analyst to FP&A lead, then to database administer, and finally a business analyst.
 I'm not going to go over my resume here, but you can click on the buttons to learn more about each position.
 What I am going to do is touch on L Three Harris at a high level.
 Some of the most important skills that I learned at L Three Harris was how to be analytically minded, how to present information to leadership in a meaningful way, and how to work with a large, diverse group towards a common goal.
@@ -27,18 +27,18 @@ At the time, I didn't know Ruby on Rails, but I was very excited to work as a so
 Fast forward three months.
 I was proficient in Ruby on Rails, and I had taught myself JavaScript and Vue to become a full stack engineer.
 Since then, I have provided immeasurable value to the Mindstamp application.
-Here are the top three things that I'm most proud of paper, Video, Shoppable Videos, and OpenAI integrations.
+Here are the top three things that I'm most proud of PayPer Video, Shoppable Videos, and OpenAI integrations.
 Click the one you want to learn more about.
-Paper Video is a monetization platform built in Mindstamp.
-This allows our users to sell their interactive videos to their viewers to create Paper, I integrated Stripe with Mindstamp, allowing our users to connect to their Stripe account and then collect funds from their viewers.
-You can click on the button here to learn more about Paper Video.
+PayPer Video is a monetization platform built in Mindstamp.
+This allows our users to sell their interactive videos to their viewers to create PayPer, I integrated Stripe with Mindstamp, allowing our users to connect to their Stripe account and then collect funds from their viewers.
+You can click on the button here to learn more about PayPer Video.
 Shoppable Videos is a feature that's close to my heart because I am a Shopify user myself.
 Using Shopify's Shop, a Buy API, Mindstamp users can connect to their store and sell their products with an in video shopping cart.
 At any point in the video, users can go to the checkout all from their interactive experience.
 To learn more about Shoppable Videos and the Shopify integration, click here.
 I am fascinated by artificial intelligence, and early on I knew that Mindstamp had to add AI to our offering.
 I spent a lot of time working with OpenAI's ChatGPT and Dall-e APIs to integrate them with Mindstamp.
-Now Mindstamp users can use features like Genie, AI, Ask Chat, GPT, click, Actions, image Creations and many more.
+Now Mindstamp users can use features like GenieAI, Ask ChatGPT click actions, image creations and many more.
 An exciting project that I'm currently working on is an embedded AI chatbot that assists users with the Mindstamp platform.
 I built this in python using langchain and pine cone.
 Being the lead engineer at Mindstamp has allowed me to see countless projects from start to finish, and I've had the autonomy to be creative in everything that I've built.
@@ -46,7 +46,7 @@ If I had to pick three things that I want you to know about me, they would be th
 I own my own coffee roastery, and I love competition.
 Here you can see a picture of my wife Chelsea and our daughters Blakely and Taya.
 One of my favorite things that we do as a family is called Big Bed Night.
-Every Friday night, we get Chickfila for dinner, we put a movie on in the guest room, and we have a sleepover with my daughters.
+Every Friday night, we get Chick-fil-a for dinner, we put a movie on in the guest room, and we have a sleepover with my daughters.
 It's a memory that I hope they'll cherish forever.
 Now, to get a little less sentimental, in December of 2022, I started Space Coast Roasters, a local coffee roastery here in Melbourne, Florida.
 I have an online shop that you can check out right here.
