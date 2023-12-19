@@ -1,2 +1,2 @@
-pinecone
+pinecone-client
 langchain
