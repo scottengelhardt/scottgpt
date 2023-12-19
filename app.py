@@ -82,7 +82,7 @@ def main():
     # Build an app with streamlit
     st.set_page_config(page_title="ScottGPT", page_icon=":zap:")
 
-    st.header("Scott's Job Bot :zap:")
+    st.header("Scott's Bot :zap:")
 
     col1, col2, col3, col4 = st.columns(4)
     with col1:
