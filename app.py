@@ -26,7 +26,7 @@ def generate_response(message):
 def main():
     # load pinecone
     pinecone.init(
-        api_key=st.secrets("PINECONE_API_KEY"), environment="us-west1-gcp-free"
+        api_key=st.secrets["PINECONE_API_KEY"], environment="us-west1-gcp-free"
     )
 
     # Create memory store
