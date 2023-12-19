@@ -113,11 +113,10 @@ def main():
     user_input = st.chat_input(placeholder="What can I answer for you?")
     if user_input:
         st.session_state.history.append({"role": "user", "content": user_input})
-        st.chat_message("user", avatar="👨‍"').markdown(user_input)
+        st.chat_message("user", avatar="👨‍").markdown(user_input)
         response = generate_response(user_input)
         st.session_state.history.append({"role": "bot", "content": response})
-        st.chat_message("assistant", avatar=""').markdown(response
-)
+        st.chat_message("assistant", avatar="🤖").markdown(response)
 
 if __name__ == "__main__":
     main()
