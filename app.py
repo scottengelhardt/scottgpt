@@ -89,12 +89,6 @@ def main():
             webbrowser.open_new_tab(
                 "https://github.com/scottengelhardt/scottgpt/blob/dc87c1b12f559e12dfe6029e009eb4f7f9fb5ed8/resume.pdf"
             )
-        st.download_button(
-            label="Download Resume",
-            data=pdf_data,
-            file_name="Scott Engelhardt's Resume.pdf",
-            mime="application/pdf",
-        )
     with col2:
         if st.button("Interactive Portfolio"):
             webbrowser.open_new_tab(
