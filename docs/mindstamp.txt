@@ -1,0 +1,6 @@
+Mindstamp is an interactive video platform.
+Simply upload your video to Mindstamp, add some interactions and you have created a dynamic, engaging experience for your viewers.
+In the videos you can add button, hotspots, images, text, questions and much more.
+We have rich analytics allowing you to enhance your videos performance and track your viewers activity.
+Mindstamp supports a number of 3rd party integrations including Synthesia, HubSpot, Shopify, Stripe, Salesforce, OpenAI, and many more.
+Mindstamp is great for sales, marketing, education, and various other use cases.

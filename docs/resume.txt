@@ -1,0 +1,54 @@
+Scott Engelhardt
+From Melbourne, Florida 
+Phone: (904) 463-0728
+email: scott_engelhardt@outlook.com
+Career Summary: Experienced and motivated Full Stack Engineer with a passion for tackling difficult problems and a track record of success at Mindstamp and L3Harris. With my foundation in Computer Science from the University of Florida with a degree in Finance from the University of Central Florida, I bring a unique blend of technical expertise and financial acumen to my work.
+
+Education
+University of Florida, Computer Science: Cumulative GPA: 4.0 - Cum Laude 
+University of Central Florida, Finance: Cumulative GPA: 3.96 - Summa Cum Laude
+
+Professional Experience 
+
+Lead Engineer (Full Stack) at Mindstamp from February 2022 to January 2024
+- Responsible for frontend and backend engineering for the Mindstamp Interactive Video application,
+handling over 1.4M requests per month while growing revenue by 103% in 18 months
+- Created and maintained integrations with OpenAI, HubSpot, Salesforce, Shopify, Zapier, Stripe, and more
+- Created a custom AI embedded chatbot using LangChain and Pinecone that provided support and
+automated creation of interactive assets for customers within the application
+- Developed a paywall feature by integrating Stripe that has generated $140K revenue in 6 months
+- Integrated Shopify’s ShopifyBuy API to allow users to create shoppable videos
+- Integrated Single-Sign-On into Mindstamp for Enterprise clients
+- Extended and fully-documented the Mindstamp API and other technical components
+- Provided customer support through live support calls and demos
+- Technologies: Ruby on Rails, Javascript (Vue.js), Python, Heroku, Sidekiq, AWS, Kafka, REST APIs, Devise,
+PostgreSQL, ActiveRecord
+
+Business Analyst at L3Harris Technologies from October 2021 to February 2022
+- Managed Engineering Leading Indicator metrics for the Space And Airborne Systems segment
+- Utilized SQL, PySpark, Python, and Linux tools to provide metric analysis
+
+Database Administer at L3Harris Technologies from July 2019 to October 2021
+- Responsible for integrating Legacy Harris and Legacy L3 businesses onto a Hyperion Financial Planning
+database for the Integrated Mission Solution segment (+$8B annual revenue)
+- Developed user templates for routine database management (~45 min time saving per template)
+- Developed scripts for onboarding new businesses into the database (12 hr. time saving per business)
+- Created an automated and reliable Monthly Financial Review Template (16 hr. time saving per report)
+- Instruct monthly training classes and provide daily assistance for over 200 database users
+
+Financial Planning & Analysis Lead at L3Harris Technologies from June 2018 to July 2019
+- Performed financial analysis on over $1B in annual revenue for the Mission Avionics Sector
+- Presented financial reviews to sector leadership on a monthly basis
+- Developed a tool to automate proposal reports and charts (10 hr. time saving per proposal)
+
+Program Financial Analyst at L3Harris Technologies from May 2016 to June 2018
+- Lead Program Analyst for a variety of contracts exceeded $75M and for over $100M of new businesses
+
+Relevant Skills
+- Proficient in JavaScript, Ruby, Vue.js, and Excel/VBA 
+- Working knowledge in Python and SQL
+- Familiarity with C/C++ and Java
+
+Links
+- Github: https://github.com/scottengelhardt
+- LinkedIn: https://www.linkedin.com/in/scott-engelhardt
