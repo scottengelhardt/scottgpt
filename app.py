@@ -56,7 +56,8 @@ def main():
             1. The response should pertain only to the data provided below.
             2. If the question appears to be missing context or subject matter, use the the provided history to infer context. Start searching from back to front. 
             3. If there is relevant information in the history, you should provide it in the context of the most recent historic message.
-            4. If a response is not found in the information or history provided below, respond "I don't know the answer to that. You can email Scott at scott_engelhardt@outlook.com to ask him directly." 
+            4. If the message from the user says "You" or "Your" it should be intepretted as referring to Scott.
+            5. If a response is not found in the information or history provided below, respond "I don't know the answer to that. You can email Scott at scott_engelhardt@outlook.com to ask him directly." 
 
         Here is the chat history:
         {history}
