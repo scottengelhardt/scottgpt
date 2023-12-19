@@ -1,17 +1,15 @@
 import os
 
 import pinecone
-from dotenv import load_dotenv
-
-load_dotenv() # load .env file
+import streamlit as st
 
 # load pinecone
 pinecone.init(      
-	api_key=os.getenv('PINECONE_API_KEY'),      
+	api_key=st.secrets['PINECONE_API_KEY'],      
 	environment='us-west1-gcp-free'      
 )      
 
-index_name = os.getenv('PINECONE_INDEX')
+index_name = st.secrets['PINECONE_INDEX']
 
 # Check if our index already exists. If it doesn't, we create it 
 if index_name not in pinecone.list_indexes():
