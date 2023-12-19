@@ -91,7 +91,7 @@ def main():
                 "https://github.com/scottengelhardt/scottgpt/blob/dc87c1b12f559e12dfe6029e009eb4f7f9fb5ed8/resume.pdf"
             )
     with col2:
-        if st.button("Interactive Portfolio"):
+        if st.button("Interactive Intro"):
             webbrowser.open_new_tab(
                 "https://share.mindstamp.com/w/RgoLuuzfyGFi?from=streamlit"
             )
