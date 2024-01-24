@@ -2,13 +2,12 @@ import webbrowser
 
 import pinecone
 import streamlit as st
-from streamlit.components.v1 import html
-
 from langchain.chains import LLMChain
 from langchain.chat_models import ChatOpenAI
 from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.prompts import PromptTemplate
 from langchain.vectorstores import Pinecone
+from streamlit.components.v1 import html
 
 
 # Do similarity search and send response
@@ -27,7 +26,7 @@ def generate_response(message):
 
 def main():
     # load pinecone
-    pinecone.init(
+    pc = Pinecone(
         api_key=st.secrets["PINECONE_API_KEY"], environment="us-west1-gcp-free"
     )
 
@@ -45,7 +44,7 @@ def main():
     if "embeddings" not in st.session_state:
         # Load the data from Pinecone
         st.session_state.embeddings = OpenAIEmbeddings()
-        st.session_state.db = Pinecone.from_existing_index(
+        st.session_state.db = pc.from_existing_index(
             "scott", st.session_state.embeddings
         )
 
