@@ -1,4 +1,4 @@
-pinecone-client
+pinecone-client==2.2.4
 langchain
 openai
 tiktoken

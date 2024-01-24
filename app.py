@@ -26,7 +26,7 @@ def generate_response(message):
 
 def main():
     # load pinecone
-    pc = Pinecone(
+    pinecone.init(
         api_key=st.secrets["PINECONE_API_KEY"], environment="us-west1-gcp-free"
     )
 
@@ -44,7 +44,7 @@ def main():
     if "embeddings" not in st.session_state:
         # Load the data from Pinecone
         st.session_state.embeddings = OpenAIEmbeddings()
-        st.session_state.db = pc.from_existing_index(
+        st.session_state.db = Pinecone.from_existing_index(
             "scott", st.session_state.embeddings
         )
 
